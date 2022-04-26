@@ -1,3 +1,5 @@
+package tshirts;
+
 public class Tshirts {
     static String size(int cms) {
         if(cms < 38) {
@@ -16,4 +18,5 @@ public class Tshirts {
         assert(size(43) == "L");
         System.out.println("All is well (maybe!)");
     }
+
 }
